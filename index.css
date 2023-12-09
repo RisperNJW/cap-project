@@ -85,10 +85,9 @@ button {
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom:100%;
     width: 100%;
     background: #8f7171;
-    
 }
 .main-content {
     display: flex;
