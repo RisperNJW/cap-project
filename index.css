@@ -77,17 +77,19 @@ button {
 /* contact form  */
 .container2 {
     max-width: 100%;
-    margin: 100px;
+    margin: 0;
     padding: 0 20px;
     box-sizing: border-box;
     background-color: yellowgreen;
 }
 
+
 footer {
     position: fixed;
-    bottom:100%;
+    bottom: 0;
     width: 100%;
     background: #8f7171;
+    
 }
 .main-content {
     display: flex;
@@ -103,3 +105,4 @@ footer {
 .box .content{
     margin: 20px 0 0 0;
 }
+
