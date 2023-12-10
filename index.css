@@ -99,15 +99,31 @@ h1 {
     outline: none;
     animation: animate 3s linear infinite;
 }
+@keyframes animate {
+    0%,26%,40%,35%,20%,25%
+    {
+        color: #fc6cb4;
+        box-shadow: none;
+    }
+    18%,25%,50%,60.5%,15%{
+        color: #fff;
+        text-shadow: 0 0 10px rgb(132, 146, 141),
+        0 0 20px rgb(140, 163, 155),
+        0 0 30px rgb(147, 173, 165),
+        0 0 60px rgb(115, 139, 131),
+        0 0 100px rgb(123, 165, 151);     
+    }
+}
+
 /* rsvp form */
 .container2 {
-    max-width: 100%;
-    margin: 100px ;
+    max-width: 200%;
+    margin: 10px ;
 }
 .container2 body {
     background-color: #b48686c4;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +137,7 @@ h1 {
     background-color: #d4b4b4;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 100px;
+    padding: 2rem;
     width: 600px;
 }
 .rsvp-form label {
