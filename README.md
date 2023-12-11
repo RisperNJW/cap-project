@@ -5,7 +5,7 @@ Events website is about music industry concert. The landing page has been built 
 
 ## Figma Design
 
-<a href="">View Figma Design</a>
+<a href="https://www.figma.com/file/okCCG2FO5v1eNIP3NoeLhW/Music-Concert-Event?type=design&node-id=0-1&mode=design&t=C3JYYkb4qOjjIur2-0">View Figma Design</a>
 
 ## Live link
 view project: 
@@ -18,7 +18,7 @@ view project:
  - rsvp form; Has field space area to fill details of the concert attendance.
 
 ## Technology Used
-HTML,CSS, JAVASCRIPT
+HTML,CSS, JAVASCRIPT and Figma
 ## Run the project locally
 -Follow the following steps;
 1. clone the repository
