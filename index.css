@@ -156,29 +156,27 @@ h1 {
 }
 
 /* rsvp form */
-.container2 {
-    max-width: 200%;
-    margin: 10px ;
-}
-.container2 body {
-    background-color: #b48686c4;
+.container2  {
+    background-color: #aa9d9dc4;
     margin: 10px;
     padding: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 10vh;
 }
+
 .container2 h2 {
     text-align: center;
     padding: 2rem;
 }
 .rsvp-form {
-    background-color: #d4b4b4;
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    width: 600px;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(41, 39, 39, 0.1);
+    padding: 100px;
+    width: 400px;
+    margin:10px auto;
+    
 }
 .rsvp-form label {
     display: block;
@@ -191,7 +189,6 @@ h1 {
     padding: 10px;
     margin-bottom: 30px;
     box-sizing: border-box;
-    border-radius: 10px;
 }
 
 .rsvp-form button {
@@ -207,29 +204,26 @@ h1 {
 }
 
 /* contact form  */
-.container1 {
-    max-width: 100%;
-    margin: 100px;
-}
-.container1 body {
-    background-color: #b48686c4;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.container1  {
+    background-color: #aa9d9dc4;
+    margin: 10px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    }
+    height: 10vh;
+}
 .container1 h2 {
     text-align: center;
     padding: 2rem;
 }
   .contact-form {
-    background-color: #d4b4b4;
+    background-color: #ebebeb;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 100px;
-    width: 600px;
+    width: 400px;
+    margin: 10px auto;
+
  }
 
 .contact-form label {
