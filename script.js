@@ -19,7 +19,6 @@ function countdownTimer(durationInSeconds) {
             timerDisplay.textContent = "Time's up!";
         }
     }
-
     // Initial display
     updateTimerDisplay();
 
@@ -32,6 +31,7 @@ const duration = 1 * 24 * 60 * 60;
 
 // Start the countdown timer
 countdownTimer(duration);
+
 
 
 //rsvp form submit button

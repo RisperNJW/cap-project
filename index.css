@@ -32,10 +32,18 @@ h1 {
     text-align: justify;
     font-size: 50px;
     font-style: italic;
+    font-family: cursive;
 }
 .text{
-        font-weight: bold;
+        font-weight: 60;
         font-size: 30px;
+        font-style: italic;
+        font-family: 'Trebuchet MS';
+}
+.text span {
+    font-family: cursive;
+    font-size: 30px;
+    flex-wrap: wrap;
 }
 .navbar img {
     max-width: 25%;
@@ -43,6 +51,38 @@ h1 {
     width: 100px;
     height: 100px;
     border-radius: 40px;
+}
+ /*  sponsors logo container */
+.title-sponsors {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-sponsors h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.sponsors-logo {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+}
+.slide {
+    text-align: center;
+}
+.slide img {
+    max-width: 30%;
+    height: auto;
+    width: 300px;
+    height: 100px;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}    
+.sponsors-logo p {
+    margin-top: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* event */
@@ -238,3 +278,32 @@ footer {
     margin: 20px 0 0 0;
 }
 
+.content body {
+    background-color: #b48686c4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content input,
+.content textarea {
+    width: 70%;
+    padding: 2px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.content button {
+    background-color: #366074b7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.content button:hover {
+    background-color: #fc6cb4;
+}
