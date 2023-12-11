@@ -6,8 +6,8 @@
 .navbar {
     background-color:rgb(143, 138, 138);
     text-align: center;
-    padding: 20px 0;
-    font-size:20px ;
+    padding: 10px 0;
+    font-size:18px ;
 }
 nav {
     color:#f8e3c3;
@@ -17,7 +17,7 @@ nav {
 nav a {
     color: #fae3c3;
     text-decoration: none;
-    margin: 0 1em;
+    margin: 0 0.05em;
 }
 .menu {
     display: flex;
@@ -63,6 +63,7 @@ h1 {
 }
 .sponsors-logo {
     display: flex;
+    flex-direction: column;
     justify-content: safe;
     align-items: center;
 }
@@ -70,16 +71,16 @@ h1 {
     text-align: center;
 }
 .slide img {
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
-    width: 300px;
+    width: auto;
     height: 100px;
     border-radius:8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }    
 .sponsors-logo p {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
@@ -102,7 +103,7 @@ h1 {
     font-size: 2rem;
 }
 .container p {
-    font-size: 4rem;
+    font-size: 1.5rem;
     width: 100%;
     letter-spacing: 4px;
     color: #8f7171;
@@ -173,30 +174,32 @@ h1 {
     background-color: #ebebeb;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(41, 39, 39, 0.1);
-    padding: 100px;
-    width: 400px;
+    padding: 20px;
+    width: 100%;
     margin:10px auto;
     
 }
 .rsvp-form label {
     display: block;
     margin-bottom: 8px;
+    font-size: 14px;
     font-weight: bold;
 }
 .rsvp-form input,
 .rsvp-form textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 8px;
+    margin-bottom: 15px;
     box-sizing: border-box;
 }
 
 .rsvp-form button {
     background-color: rosybrown;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border: none;
     border-radius: 10px;
+    font-size: 16px;
     cursor: pointer;
 }
 .rsvp-form button:hover {
@@ -220,8 +223,8 @@ h1 {
     background-color: #ebebeb;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 100px;
-    width: 400px;
+    padding: 20px;
+    width: 100%;
     margin: 10px auto;
 
  }
@@ -230,20 +233,23 @@ h1 {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    font-size: 14px;
 }
 .contact-form input,.contact-form textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 8px;
+    margin-bottom: 15px;
     box-sizing: border-box;
+    font-size:14px ;
     
  }
 .contact-form button {
   background-color: #366074b7;
   color: #fff;
   border: none;
-  padding: 10px 15px;
+  padding: 8px 12px;
   border-radius: 4px;
+  font-size: 16px;
  cursor: pointer;
 }
 
@@ -261,7 +267,7 @@ footer {
     display: flex;
 }
 .main-content .box {
-    flex-basis: 30%;
+    flex-basis: 100%;
     padding: 20px 10px;
 }
 .box h3 {
@@ -301,3 +307,4 @@ footer {
 .content button:hover {
     background-color: #fc6cb4;
 }
+@media screen and (max-width: 768px)
