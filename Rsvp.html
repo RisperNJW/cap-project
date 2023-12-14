@@ -20,43 +20,77 @@
                 <li><a href="Contact.html">Contact Us</a></li>
             </ul>
         </div>
-        <h2>Concert Party Form</h2>
-        <form class="rsvp-form">
-            <label for="name">First Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="name">Last Name:</label>
-            <input type="text" id="name" name="name" required>
+        <div class="container-column">
+            <form class="rsvp-form">
+                <h2>Concert Party Form</h2>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="name">Last Name:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="number">Phone Number</label>
-            <input type="text" id="number" name="number" required>
-            <div class="book-services">
-                <p>Book Services</p>
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="number" required>
+                <div class="book-services">
+                    <p>Book Services</p>
 
-                <ul>
-                    <li>Entertainment <input type="radio" name="ans" value="yes"> Yes
-                        <input type="radio" name="ans" value="no"> No
-                    </li>
-                    <li>Instrument show <input type="radio" name="ans" value="yes"> Yes
-                        <input type="radio" name="ans" value="no"> No
-                    </li>
-                    <li>live concert <input type="radio" name="ans" value="yes"> Yes
-                        <input type="radio" name="ans" value="no"> No
-                    </li>
-                </ul>
+                    <ul>
+                        <li>Entertainment <input type="radio" name="ans" value="yes"> Yes
+                            <input type="radio" name="ans" value="no"> No
+                        </li>
+                        <li>Instrument show <input type="radio" name="ans" value="yes"> Yes
+                            <input type="radio" name="ans" value="no"> No
+                        </li>
+                        <li>live concert <input type="radio" name="ans" value="yes"> Yes
+                            <input type="radio" name="ans" value="no"> No
+                        </li>
+                    </ul>
 
-                <p>Will you attend the concert?</p> <br>
-                <input type="radio" name="ans" value="yes"> Yes <br>
-                <input type="radio" name="ans" value="no"> No
+                    <p>Will you attend the concert?</p> <br>
+                    <input type="radio" name="ans" value="yes"> Yes <br>
+                    <input type="radio" name="ans" value="no"> No
+                </div>
+
+                <label for="message">Additional Message (optional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit RSVP</button>
+            </form>
+            <div class="payment-form">
+                <h2>Payment gateway</h2>
+                <div class="form">
+
+                    <div class="card-space"><br>
+                        <label for="label">Card Holder:</label> 
+                        <div class="wrapper">
+                            <input type="text" class="input" name="card-holder" placeholder="coding market">
+                        </div> <br>
+                    </div>
+                    <div class="card space">
+                        <label for="label">Card Number:</label> 
+                        <br>
+                        <input type="text" class="input" name="card-number" placeholder="Card Number"> 
+                        <br>
+                    </div>
+                    <div class="card-item space">
+                        <div class="card-item"> <br>
+                            <label for="label">Expiry-Date:</label>
+                            <input type="text" class="input" name="expiry-date" placeholder="00/00"> 
+                        </div>
+                        <div class="card-item space">
+                            <div class="card-item"><br>
+                                <label for="label">cvc:</label> 
+                                
+                                <input type="text" class="input" name="cvc" placeholder="000">
+                            </div><br><br>
+                            <button type="submit">Submit Payment</button> 
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <label for="message">Additional Message (optional):</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-
-            <button type="submit">Submit RSVP</button>
-        </form>
+        </div>
     </div>
 
     <script src="script.js"></script>
