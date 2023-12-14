@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>RSVP Form</title>
 </head>
+
 <body>
     <div class="container2">
+        <div class="navbar">
+            <img src="logo.jpg" alt="logo">
+            <div class="text">Events Home</div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Event.html">Events Detail</a></li>
+                <li><a href="Rsvp.html">RSVP Form</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
         <h2>Concert Party Form</h2>
         <form class="rsvp-form">
             <label for="name">First Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="name">Last Name:</label>
             <input type="text" id="name" name="name" required>
-    
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-    
+
             <label for="number">Phone Number</label>
             <input type="text" id="number" name="number" required>
-    
-            <p>Will you attend the concert?</p> <br>
-            <input type="radio" name="ans" value="yes"> Yes <br>
-            <input type="radio" name="ans" value="no"> No
-    
+            <div class="book-services">
+                <p>Book Services</p>
+
+                <ul>
+                    <li>Entertainment <input type="radio" name="ans" value="yes"> Yes
+                        <input type="radio" name="ans" value="no"> No
+                    </li>
+                    <li>Instrument show <input type="radio" name="ans" value="yes"> Yes
+                        <input type="radio" name="ans" value="no"> No
+                    </li>
+                    <li>live concert <input type="radio" name="ans" value="yes"> Yes
+                        <input type="radio" name="ans" value="no"> No
+                    </li>
+                </ul>
+
+                <p>Will you attend the concert?</p> <br>
+                <input type="radio" name="ans" value="yes"> Yes <br>
+                <input type="radio" name="ans" value="no"> No
+            </div>
+
             <label for="message">Additional Message (optional):</label>
             <textarea id="message" name="message" rows="4"></textarea>
-    
+
             <button type="submit">Submit RSVP</button>
         </form>
     </div>
-    
+
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>

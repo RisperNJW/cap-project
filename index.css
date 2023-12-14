@@ -172,7 +172,7 @@ h1 {
     padding: 2rem;
 }
 .rsvp-form {
-    background-color: #ebebeb;
+    background-color: gray;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(41, 39, 39, 0.1);
     padding: 20px;
@@ -192,6 +192,12 @@ h1 {
     padding: 8px;
     margin-bottom: 15px;
     box-sizing: border-box;
+}
+.rsvp-form .book-services{
+    padding-bottom: 50px;
+    justify-content: right;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .rsvp-form button {
@@ -221,7 +227,7 @@ h1 {
     padding: 2rem;
 }
   .contact-form {
-    background-color: #ebebeb;
+    background-color: gray;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
